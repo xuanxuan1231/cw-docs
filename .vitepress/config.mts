@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/cw-docs',
   lang: "zh",
   title: "Class Widgets",
   description: "能够显示当前课程的<br>桌面组件应用程序",
