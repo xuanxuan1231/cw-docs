@@ -9,7 +9,19 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/cw-docs/favicon.ico' }],
     //<meta name="msvalidate.01" content="7CFDD34AD7AA7DA98137713E6A298EE1" />
-    ['meta', { name: 'msvalidate.01', content: '7CFDD34AD7AA7DA98137713E6A298EE1'}]
+    ['meta', { name: 'msvalidate.01', content: '7CFDD34AD7AA7DA98137713E6A298EE1'}],
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-1Z43N82SJ7' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-1Z43N82SJ7');`
+    ]
   ],
   sitemap: {
     hostname: process.env.HOSTNAME
