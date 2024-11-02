@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
+    "github:build": "cross-env HOSTNAME=https://xuanxuan1231.github.io/cw-docs/ vitepress build",
+    "gitlab:build": "cross-env HOSTNAME=https://xuanxuan1231.gitlab.io/cw-docs/ vitepress build",
     "docs:preview": "vitepress preview"
   },
   "keywords": [
@@ -15,6 +16,7 @@
   "author": "Wenxuan Shen",
   "license": "ISC",
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "vitepress": "^1.4.1"
   }
 }

@@ -9,6 +9,9 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/cw-docs/favicon.ico' }]
   ],
+  sitemap: {
+    hostname: process.env.HOSTNAME
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/Logo.png',

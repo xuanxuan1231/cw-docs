@@ -45,7 +45,7 @@ jobs:
       - name: 安装依赖
         run: npm ci # 或 pnpm install / yarn install / bun install
       - name: 构建
-        run: npm run docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
+        run: npm run github:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
       - name: 上传 Artifact
         uses: actions/upload-pages-artifact@v3
         with:
