@@ -7,7 +7,7 @@ export default defineConfig({
   title: "Class Widgets",
   description: "能够显示当前课程的<br>桌面组件应用程序",
   head: [
-    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', type: 'image/x-icon', href: 'cw-docs/favicon.ico' }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
