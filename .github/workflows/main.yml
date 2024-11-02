@@ -1,0 +1,17 @@
+on: 
+  push:
+  workflow_dispatch:
+jobs:
+  sync:
+    name: 同步到 Gitee
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 更改远程
+        run: |
+          git remote remove origin
+          git remote add origin git@gitee.com:xuanxuan1231/cw-docs.git
+          git fetch
+      - name: 强制推送
+        run: |
+          git push -u origin main -f
