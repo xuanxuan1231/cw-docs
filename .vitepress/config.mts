@@ -7,7 +7,9 @@ export default defineConfig({
   title: "Class Widgets",
   description: "能够显示当前课程的<br>桌面组件应用程序",
   head: [
-    ['link', { rel: 'icon', type: 'image/x-icon', href: '/cw-docs/favicon.ico' }]
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/cw-docs/favicon.ico' }],
+    //<meta name="msvalidate.01" content="7CFDD34AD7AA7DA98137713E6A298EE1" />
+    ['meta', { name: 'msvalidate.01', content: '7CFDD34AD7AA7DA98137713E6A298EE1'}]
   ],
   sitemap: {
     hostname: process.env.HOSTNAME
