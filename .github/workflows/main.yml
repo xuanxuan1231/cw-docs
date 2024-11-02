@@ -1,3 +1,4 @@
+name: 同步到 Gitee
 on: 
   push:
   workflow_dispatch:
@@ -7,6 +8,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Config SSH Key
+        uses: khoazero123/ssh-key-action@v2.5.2
+        with:
+          key: ${{ secrets.SSH_KEY }}
+          name: id_ed25519
+          known_hosts: ${{ secrets.KNOWN_HOSTS }}
+            
       - name: 更改远程
         run: |
           git remote remove origin
