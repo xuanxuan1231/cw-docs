@@ -1,7 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
+description: Class Widgets 是一款能够显示当前课程的桌面组件应用程序。其提供了易用课程表编辑和美观的桌面组件。
 hero:
   name: Class Widgets
   text: 全新桌面课表
@@ -35,3 +35,4 @@ features:
     details: 通过 “自定义” 个性化你的 Class Widgets，可高度自定义主题
 ---
 
+<center>文档中部分图片来自 [RinLit](https://github.com/RinLit-233-shiroko)</center>
