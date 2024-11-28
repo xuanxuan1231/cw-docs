@@ -8,6 +8,7 @@
     "docs:dev": "vitepress dev",
     "github:build": "cross-env HOSTNAME=https://xuanxuan1231.github.io/cw-docs/ vitepress build",
     "gitlab:build": "cross-env HOSTNAME=https://xuanxuan1231.gitlab.io/cw-docs/ vitepress build",
+    "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
   "keywords": [
