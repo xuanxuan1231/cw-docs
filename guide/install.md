@@ -1,7 +1,7 @@
 # 安装
 本文将为您介绍如何安装 Class Widgets。
 ## 系统需求 {#system-requirements}
-- 操作系统：**Windows 7 及以上**
+- 操作系统：<Badge type="warning">>=v1.1.7</Badge> **Windows 7 及以上**   <Badge type="info"><=v1.1.6.5</Badge> **Windows 10 及以上**
 - 运行内存：**≥ 4 GB**
 
 ## 下载 {#download}
@@ -23,4 +23,4 @@
 然而在某些版本更新时，您需要导出并重新导入配置文件。
 
 ## 遇到问题 {#troubleshooting}
-如果遇到问题，您可以[提个 Issue](https://github.com/RinLit-233-shiroko/Class-Widgets/issues)，[发个帖子](https://github.com/RinLit-233-shiroko/Class-Widgets/discussions)或者[到哔哩哔哩看看](https://www.bilibili.com/video/BV1xwW9eyEGu/)。
+如果遇到问题，您可以到 [GitHub](https://github.com/RinLit-233-shiroko/Class-Widgets/issues) 或[哔哩哔哩](https://www.bilibili.com/video/BV1xwW9eyEGu/)反馈。

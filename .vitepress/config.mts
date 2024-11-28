@@ -31,14 +31,15 @@ export default defineConfig({
     logo: '/Logo.png',
     nav: [
       { text: '首页', link: '/' },
-      { text: '快速上手', link: '/guide' },
-      { text: '进阶配置', link: '/advanced'}
+      { text: '快速上手', link: '/guide/install' },
+      { text: '进阶配置', link: '/advanced'},
+      { text: '开发', link: '/dev'}
     ],
 
-    sidebar: [
+    sidebar: {
+      '/guide': [
       {
         text: '快速上手',
-        link: '/guide',
         items: [
           { text: '安装',
             link: '/guide/install'
@@ -65,9 +66,42 @@ export default defineConfig({
           }
         ]
       }
-    ],
+      ],
+      '/advanced': [
+        {
+          text: '进阶配置',
+          link: '/advanced',
+          items: [
+            {
+              text: '天气 & API Key', 
+              link: '/advanced/weather-api'
+            },
+            {
+              text: '个性化',
+              link: '/advanced/customize'
+            },
+            {
+              text: '主题',
+              link: '/advanced/theme'
+            },
+            {
+              text: '上下课提醒',
+              link: '/advanced/notification'
+            },
+            {
+              text: '插件',
+              link: '/advanced/extension'
+            }
+          ]
+        } 
+      ],
+      '/dev': [
+
+      ]
+    
+  },
     editLink: {
-      pattern: 'https://github.com/xuanxuan1231/class-widget-docs/edit/main/docs/:path',
+      pattern: 'https://github.com/xuanxuan1231/cw-docs/edit/main/:path',
       text: '在 GitHub 上编辑此页面'
     },
 
