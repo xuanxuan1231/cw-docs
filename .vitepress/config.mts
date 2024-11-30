@@ -73,16 +73,18 @@ export default defineConfig({
           link: '/advanced',
           items: [
             {
-              text: '天气 & API Key', 
-              link: '/advanced/weather-api'
-            },
-            {
               text: '个性化',
-              link: '/advanced/customize'
-            },
-            {
-              text: '主题',
-              link: '/advanced/theme'
+              link: '/advanced/customize',
+              items: [
+                {
+                  text: '天气 & API Key', 
+                  link: '/advanced/customize/weather-api'
+                },
+                {
+                  text: '主题',
+                  link: '/advanced/customize/theme'
+                },
+              ] 
             },
             {
               text: '上下课提醒',
@@ -96,7 +98,24 @@ export default defineConfig({
         } 
       ],
       '/dev': [
-
+        {
+          text: '开发文档',
+          link: '/dev',
+          items: [
+            {
+              text: '软件主体',
+              link: '/dev/app'
+            },
+            {
+              text: '软件插件',
+              link: '/dev/extension'
+            },
+            {
+              text: '软件主题',
+              link: '/dev/theme'
+            }
+          ]
+        }
       ]
     
   },
@@ -105,10 +124,10 @@ export default defineConfig({
       text: '在 GitHub 上编辑此页面'
     },
 
-    //footer: {
-    //  message: '基于 MIT 许可发布',
-    //  copyright: `版权所有 © 2019-${new Date().getFullYear()} 尤雨溪`
-    //},
+    footer: {
+      message: '非官方的文档。部分图片来自 <a href=https://github.com/RinLit-233-shiroko>RinLit-233-shiroko</a>。',
+      //copyright: `版权所有 © 2019-${new Date().getFullYear()} 尤雨溪`
+    },
 
     docFooter: {
       prev: '上一页',
@@ -116,7 +135,8 @@ export default defineConfig({
     },
 
     outline: {
-      label: '页面导航'
+      label: '页面导航',
+      //level: ['2']
     },
 
     lastUpdated: {

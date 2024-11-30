@@ -1,6 +1,3 @@
----
-outline: 'deep'
----
 # 设置时间线
 本文将为您介绍如何在 Class Widgets 中设置时间线。
 ## 介绍
