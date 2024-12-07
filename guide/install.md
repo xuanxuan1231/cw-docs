@@ -1,7 +1,7 @@
 # 安装
 本文将为您介绍如何安装 Class Widgets。
 ## 系统需求 {#system-requirements}
-- 操作系统：<Badge type="warning">>=v1.1.7</Badge> **Windows 7 及以上**   <Badge type="info"><=v1.1.6.5</Badge> **Windows 10 及以上**
+- 操作系统：<Badge type="warning">>=v1.1.7(7c64e7d)</Badge> **Windows 7 及以上**   <Badge type="info"><=v1.1.6.5</Badge> **Windows 10 及以上**
 - 运行内存：**≥ 4 GB**
 
 ## 下载 {#download}
