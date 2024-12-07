@@ -2,7 +2,7 @@
 outline: [2,3]
 ---
 # 开发插件
-Class Widgets 支持使用 Python 编写的插件。环境配置见[开发文档](/dev#env)。
+Class Widgets 支持使用 Python 编写的插件。环境配置见[开发文档](/dev/#env)。
 ## 插件开发 {#dev}
 示例插件：[RinLit-233-shiroko/cw-example-plugin](https://github.com/RinLit-233-shiroko/cw-example-plugin)
 ### `plugin.json` 清单 {#manifest}
