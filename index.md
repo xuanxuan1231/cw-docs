@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 指南
-      link: /guide
+      link: /guide/install
     - theme: alt
       text: GitHub
       link: https://github.com/Class-Widgets/Class-Widgets
