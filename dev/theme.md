@@ -1,11 +1,52 @@
 ---
 outline: [2]
 ---
-# 主题开发
-Class Widgets 使用 Qt。您可以使用 Qt Designer 在默认主题的基础上进行更改。  
+# 开发主题
+Class Widgets 使用 PyQt5。您可以使用 Qt Designer 在默认主题的基础上进行更改。  
 本指南以“默认”主题为例。
 
 ## 文件架构 {#file-arch}
+```
+D:\CLASS-WIDGETS\UI\DEFAULT
+|   theme.json
+|   toast-open_dialog.ui
+|   widget-base.ui
+|   widget-countdown-custom.ui
+|   widget-countdown.ui
+|   widget-current-activity.ui
+|   widget-floating.ui
+|   widget-next-activity.ui
+|   widget-time.ui
+|   widget-weather.ui
+|
++---dark
+|   |   toast-open_dialog.ui
+|   |   widget-base.ui
+|   |   widget-countdown-custom.ui
+|   |   widget-countdown.ui
+|   |   widget-current-activity.ui
+|   |   widget-floating.ui
+|   |   widget-next-activity.ui
+|   |   widget-time.ui
+|   |   widget-weather.ui
+|   |
+|   \---preview
+|           widget-countdown-custom.png
+|           widget-countdown.png
+|           widget-current-activity.png
+|           widget-next-activity.png
+|           widget-time.png
+|           widget-weather.png
+|
+\---preview
+        widget-countdown-custom.png
+        widget-countdown.png
+        widget-current-activity.png
+        widget-next-activity.png
+        widget-time.png
+        widget-weather.png
+```
+
 
 ## theme.json
 `theme.json` 是主题的清单文件。  

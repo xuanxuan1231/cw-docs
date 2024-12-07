@@ -20,7 +20,7 @@
 
 ## 升级 {#upgrade}
 通常来讲，若您的计算机已经安装了旧版本的 Class Widgets，您仅需将新版的压缩包的全部内容覆盖即可。  
-然而在某些版本更新时，您需要导出并重新导入配置文件。
+然而在某些版本更新时，您需要导出并重新导入配置文件。以该版本的 Release Note 为准。
 
 ## 遇到问题 {#troubleshooting}
 如果遇到问题，您可以到 [GitHub](https://github.com/RinLit-233-shiroko/Class-Widgets/issues) 或[哔哩哔哩](https://www.bilibili.com/video/BV1xwW9eyEGu/)反馈。

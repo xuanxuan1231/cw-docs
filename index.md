@@ -15,7 +15,7 @@ hero:
       link: /guide
     - theme: alt
       text: GitHub
-      link: https://github.com/RinLit-233-shiroko
+      link: https://github.com/Class-Widgets/Class-Widgets
     - theme: alt
       text: 哔哩哔哩
       link: https://www.bilibili.com/video/BV1xwW9eyEGu

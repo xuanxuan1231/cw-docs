@@ -17,6 +17,7 @@
   "author": "Wenxuan Shen",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^22.10.1",
     "cross-env": "^7.0.3",
     "vitepress": "^1.4.1"
   }
