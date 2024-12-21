@@ -181,7 +181,7 @@ class PluginMethod:  # 插件方法
 ## 插件上架 {#publish}
 插件广场：[Plugin Plaza](https://github.com/Class-Widgets/plugin-plaza)
 
-::: note 先决条件
+::: info 先决条件
 发布前，请先在插件仓库中创建一个 Release，否则用户将无法下载插件。
 :::
 
