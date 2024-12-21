@@ -1,56 +1,54 @@
-name: 同步
+name: Sync
 on: 
   push:
   workflow_dispatch:
 jobs:
   gitee:
-    name: 同步到 Gitee
+    name: Sync to Gitee
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Unshallow
-        run: |
-          git fetch --unshallow
+        with: 
+          fetch-depth: 0
       
-      - name: 配置 SSH 密钥
+      - name: Configure SSH Key
         uses: khoazero123/ssh-key-action@v2.5.2
         with:
           key: ${{ secrets.SSH_KEY }}
           name: id_ed25519
           known_hosts: ${{ secrets.KNOWN_HOSTS }}
             
-      - name: 更改远程
+      - name: Change Remote Repository
         run: |
           git remote remove origin
           git remote add origin git@gitee.com:xuanxuan1231/cw-docs.git
           git fetch
       
-      - name: 强制推送
+      - name: Forced Push
         run: |
           git push -u origin main -f
 
   gitlab:
-    name: 同步到 Gitlab
+    name: Sync to Gitlab
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Unshallow
-        run: |
-          git fetch --unshallow
+        with: 
+          fetch-depth: 0
       
-      - name: 配置 SSH 密钥
+      - name: Configure SSH Key
         uses: khoazero123/ssh-key-action@v2.5.2
         with:
           key: ${{ secrets.SSH_KEY }}
           name: id_ed25519
           known_hosts: ${{ secrets.KNOWN_HOSTS }}
             
-      - name: 更改远程
+      - name: Change Remote Repository
         run: |
           git remote remove origin
           git remote add origin git@gitlab.com:xuanxuan1231/cw-docs.git
           git fetch
       
-      - name: 强制推送
+      - name: Forced Push
         run: |
           git push -u origin main -f
