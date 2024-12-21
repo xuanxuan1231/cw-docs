@@ -14,6 +14,7 @@ Class Widgets 支持使用 Python 编写的插件。环境配置见[开发文档
     "version": "1.0.0",
     "plugin_ver": 1,
     "author": "Rin",
+    "settings": true,
 
     "url": "https://github.com/RinLit-233-shiroko/cw-example-plugin",
     "branch": "main",
@@ -180,4 +181,39 @@ class PluginMethod:  # 插件方法
 ## 插件上架 {#publish}
 插件广场：[Plugin Plaza](https://github.com/Class-Widgets/plugin-plaza)
 
-照插件列表数据文件的格式，向 Plugin Plaza 提交拉取请求。
+::: note 先决条件
+发布前，请先在插件仓库中创建一个 Release，否则用户将无法下载插件。
+:::
+
+首先，将 Plugin Plaza 仓库复刻到自己的账户下。  
+然后，打开 `Plugins/plugin_list.json`，照以下格式修改。
+```json
+{
+    "cw-example-plugin": {
+        "name": "Class Widgets 插件示例",
+        "#name": "插件名称",
+        "description": "这是一个示例插件。",
+        "#description": "插件描述",
+        "version": "1.1.0",
+        "#version": "插件版本",
+        "plugin_ver": 1,
+        "#plugin_ver": "插件适用的版本号(config.ini -> [Plugin] -> version 若您的插件是基于此版本制作则填写此数值)",
+        "author": "Rin",
+        "#author": "插件作者",
+
+        "url": "https://github.com/RinLit-233-shiroko/cw-example-plugin",
+        "#url": "仓库链接",
+        "branch": "main",
+        "#branch": "仓库分支",
+    
+        "update_date": "2024/12/19",
+        "#update_date": "更新日期",
+    
+        "tag": "示例",
+        "#tag": "标签"
+    }
+}
+```
+
+一切完成后，向 Plugin Plaza 提交拉取请求。  
+拉取请求被合并后，您的插件就完成了上架。
