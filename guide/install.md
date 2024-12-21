@@ -1,8 +1,12 @@
 # 安装
 本文将为您介绍如何安装 Class Widgets。
 ## 系统需求 {#system-requirements}
-- 操作系统：<Badge type="warning">>=v1.1.7(7c64e7d)</Badge> **Windows 7 及以上**   <Badge type="info"><=v1.1.6.5</Badge> **Windows 10 及以上**
-- 运行内存：**≥ 4 GB**
+- 操作系统  
+对于 Windows，您需要 **Windows 10 x64 及以上**。自 `7c64e7d` 开始，您也可以使用 **Windows 7 x86 及以上**版本。  
+对于 Linux 发行版，我们正在进行全面的测试，以保证程序的正常运行。对 Linux 的支持已在 Pull Request [#175](https://github.com/Class-Widgets/Class-Widgets/pulls/175) 尝试实现。
+
+- 运行内存  
+**≥ 4 GB**
 
 ## 下载 {#download}
 - **GitHub**：[![](https://img.shields.io/github/v/release/RinLit-233-shiroko/Class-Widgets?label=%E7%A8%B3%E5%AE%9A%E7%89%88%E6%9C%AC)](https://github.com/RinLit-233-shiroko/Class-Widgets/releases/latest)[![](https://img.shields.io/github/v/release/RinLit-233-shiroko/Class-Widgets?include_prereleases&label=%E9%A2%84%E8%A7%88%E7%89%88%E6%9C%AC)
