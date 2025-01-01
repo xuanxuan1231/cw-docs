@@ -34,7 +34,8 @@ export default defineConfig({
       { text: '关于', link: '/about' },
       { text: '快速上手', link: '/guide/install' },
       { text: '进阶配置', link: '/advanced' },
-      { text: '开发', link: '/dev' }
+      { text: '开发', link: '/dev' },
+      { text: '社区', link: '/community' }
     ],
 
     sidebar: {
@@ -126,6 +127,27 @@ export default defineConfig({
             {
               text: '软件主题',
               link: '/dev/theme'
+            }
+          ]
+        }
+      ],
+      '/community': [
+        {
+          text: '社区',
+          items: [
+            {
+              text: '社区',
+              link: '/community'
+            },
+            {
+              text: '社区规范',
+              link: '/community/rules',
+              items: [
+                {
+                  text: '提问的智慧',
+                  link: '/community/rules/How-To-Ask-Questions-The-Smart-Way'
+                }
+              ]
             }
           ]
         }
