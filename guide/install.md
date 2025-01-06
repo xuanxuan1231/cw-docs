@@ -3,7 +3,7 @@
 ## 系统需求 {#system-requirements}
 - 操作系统  
 对于 Windows，您需要 **Windows 10 x64 及以上**。自 `7c64e7d` 开始，您也可以使用 **Windows 7 x86 及以上**版本。  
-对于 Linux 发行版，我们正在进行全面的测试，以保证程序的正常运行。对 Linux 的支持已在 Pull Request [#175](https://github.com/Class-Widgets/Class-Widgets/pulls/175) 尝试实现。
+对于 Linux 发行版，我们正在进行全面的测试，以保证程序的正常运行。对 Linux 的支持已在 Pull Request [#175](https://github.com/Class-Widgets/Class-Widgets/pull/175) 尝试实现。
 
 - 运行内存  
 **≥ 4 GB**
