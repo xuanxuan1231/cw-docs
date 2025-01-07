@@ -34,7 +34,7 @@ features:
   - title: 个性化
     details: 通过 “自定义” 个性化你的 Class Widgets
   - title: 插件
-    details: 可加载 Python 插件的插件系统和插件广场 Plugin Plaza (Coming Soon)。
+    details: 可加载 Python 插件的插件系统和插件广场 Plugin Plaza。
   - title: 自定义主题
     details: 自由地使用内置或第三方主题。
 ---

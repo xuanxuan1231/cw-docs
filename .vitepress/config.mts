@@ -49,7 +49,7 @@ export default defineConfig({
           link: '/guide/install'
         }
       ],
-      '/guide': [
+      '/guide/': [
         {
           text: '快速上手',
           items: [
@@ -84,11 +84,11 @@ export default defineConfig({
       '/advanced': [
         {
           text: '进阶配置',
-          link: '/advanced',
+          link: '/advanced/',
           items: [
             {
               text: '个性化',
-              link: '/advanced/customize',
+              link: '/advanced/customize/',
               items: [
                 {
                   text: '天气 & API Key',
@@ -114,7 +114,7 @@ export default defineConfig({
       '/dev': [
         {
           text: '开发文档',
-          link: '/dev',
+          link: '/dev/',
           items: [
             {
               text: '软件主体',
