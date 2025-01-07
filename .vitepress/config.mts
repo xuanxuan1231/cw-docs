@@ -141,7 +141,7 @@ export default defineConfig({
             },
             {
               text: '社区规范',
-              link: '/community/rules',
+              link: '/community/rules/',
               items: [
                 {
                   text: '提问的智慧',
